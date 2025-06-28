@@ -1,3 +1,4 @@
+// This LLM model is using Google Studio api key and gives the real-time response to the user on the terminal window itself. 
 import { GoogleGenAI } from "@google/genai";
 import readlineSync from "readline-sync";
 const ai = new GoogleGenAI({ apiKey: "AIzaSyAoevTMQGwK6Yg2gmHa7xtlk6cYPiOxJmU" });
